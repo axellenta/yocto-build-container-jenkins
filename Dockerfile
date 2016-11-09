@@ -1,6 +1,5 @@
 # Base on Ubuntu 16.04 LTS
-# Ubuntu without systemd and filesystem management
-FROM blitznote/debootstrap-amd64:16.04
+FROM ubuntu:xenial-20161010
 
 # Yocto dependencies
 RUN DEBIAN_FRONTEND="noninteractive" apt-get -q update && \
