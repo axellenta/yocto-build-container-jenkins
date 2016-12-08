@@ -1,5 +1,5 @@
 # Yocto build image with Yocto 2.2 support (based on Ubuntu 16.04 LTS)
-FROM axellenta/yocto-build:1.1.1
+FROM axellenta/yocto-build:latest
 
 USER root
 
